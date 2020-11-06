@@ -17,7 +17,5 @@ namespace Entitties.Models
 
         public int UserID { get; set; }
         public int TaskID { get; set; }
-        public virtual User Users { get; set; }
-        public virtual TaskProject Tasks { get; set; }
     }
 }
